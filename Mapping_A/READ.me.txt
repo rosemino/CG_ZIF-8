@@ -1,4 +1,5 @@
-Here we have that:
+Potentials for FM and IBI models for mapping A can be find in the respective folders.
+
 CG1-CG1.pot : corresponds to the non-bonded potential between superatoms 1-1
 bond.pot: corresponds to the 1-1 bonds potential
-angle.pot: corresponds to the 1-1-1 angle potential.
+angle.pot: corresponds to the 1-1-1 angle potential. (PS: In the case the FM model, there are two potential for angles, namely angle1.pot and angle2.pot, which act, respectively, in the angles belonging to the first and second peak of the angle distribution function.
