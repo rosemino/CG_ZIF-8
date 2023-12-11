@@ -1,0 +1,4 @@
+Here we have that:
+CG1-CG1.pot : corresponds to the non-bonded potential between superatoms 1-1
+bond.pot: corresponds to the 1-1 bonds potential
+angle.pot: corresponds to the 1-1-1 angle potential.
