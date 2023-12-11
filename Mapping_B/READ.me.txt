@@ -1,0 +1,13 @@
+Potentials for FM and IBI models for mapping A can be found in the respective folders.
+
+CG1-CG1.pot : corresponds to the non-bonded potential between superatoms 1-1
+CG1-CG2.pot : corresponds to the non-bonded potential between superatoms 1-2
+CG2-CG2.pot : corresponds to the non-bonded potential between superatoms 2-2
+bond.pot: corresponds to the 1-1 bonds potential
+angle1.pot: corresponds to the 1-2-1 angle potential. 
+angle2.pot: corresponds to the 2-1-2 angle potential
+
+For the FM model, the coefficients of the volume dependent term used in the pressure correction are:
+psi_1: 1641026.406 atm*(angs^3)
+psi_2: -3908544.0799 atm*(angs^3)
+Reminding that this is a parametrization against an atomistic benchmark simulation that has an average volume of 4878.87 angs^3 (corresponding to 16.96 angs) at 300K, 1 atm.
