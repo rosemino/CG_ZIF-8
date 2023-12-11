@@ -1,0 +1,6 @@
+# CG_ZIF-8
+
+Welcome!
+Here you can find the underlying potentials of the IBI and FM models for each of the three ZIF-8 mappings studied in our work. The potentials can be found inside the directory of each respective mapping, which also contains a README file to instruct which potential corresponds to which bond, angle and nonbonded interaction. Specifically for the FM models, it is also possible to find the values of the psi coefficients of the volume dependent part of the Hamiltonian, used in the pressure matching method.
+
+In the main directory, it is also possible to find a code called IBI_nonbonded.py which is an example of the code used to carry out the pre-treatment of the distributions and update in the potential during the IBI algorithm. In the setup, this python code was called by a bash script which iteratively runs MD simulations, create the bonded probability density functions using VOTCA (only done when bonded potentials are to be updated in the given iteration) and calls the given python code. There is one python code for each iteration, but they all share the same protocol to pre-treat the distributions and do the update are used for bonded and non-bonded, being the code here only one example. 
