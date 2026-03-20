@@ -1,4 +1,7 @@
 # CG_ZIF-8
+# Citations:
+pre-print: https://arxiv.org/abs/2312.05192
+published version:  https://doi.org/10.1063/5.0190807
 
 Welcome!
 Here you can find the underlying potentials of the IBI and FM force fields for each of the three ZIF-8 mappings studied in our work. The potentials can be found inside the directory of each respective mapping, which also contains a README file to instruct which potential corresponds to which bond, angle and nonbonded interaction. Specifically for the FM models, it is also possible to find the values of the psi coefficients of the volume dependent part of the Hamiltonian, used in the pressure matching method.
